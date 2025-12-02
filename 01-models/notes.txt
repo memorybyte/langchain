@@ -1,0 +1,32 @@
+# The model component in LangChain is crucial part of the framework, designed to facilitate interactions with various language models and embedding models.
+
+# It abstracts the complexity of working directly with different LLMs, chat models, and embedding models, providing a uniform interface to communicate with them.
+
+# This makes it easier to build applications that rely on AI generated text, text embeddings for similarity search, and retrieval augmented generation (RAG).
+
+# Models:
+    # Language Models:
+        # LLMs
+        # Chat Models
+    # Embedding Models:
+
+# Language Models:
+    - Language models are AI systems designed to process, generate and understand natural language text.
+
+    1. LLMs:
+        - General purpose models that is used for raw text generation.
+        - They take a string (or plain text) as input and returns a string (plain text).
+        - These are traditionally older models and are not used much now.
+        - Memory and Context: No built-in Memory
+        - Role and awareness: No understanding of 'user' and 'assistant' roles
+        - Use cases: Text Generation, Summarization, Translation, Creative writing, Code generation
+
+    2. Chat Models:
+        - Language models that are specialized for conversational tasks.
+        - They take a sequence of messages as inputs and return chat messages as outputs (as opposed to using plain text). 
+        - These are traditionally newer models and used more in comparison to the LLMs.
+        - Memory and Context: Supports structured conversation history
+        - Role and awareness: Understands 'system', 'user' and 'assistant' roles
+        - Use cases: Conversational AI, chatbots, virtual assistants, customer support, AI tutors
+
+# 
