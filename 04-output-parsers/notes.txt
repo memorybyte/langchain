@@ -1,0 +1,21 @@
+# Output Parsers:
+    - Output parsers in LangChain help to convert raw LLM responses into structured formats like JSON, CSV, Pydantic models and more.
+    - They ensure consistency, validation and ease of use in applications.
+    - Output Parsers can work with 
+
+    - stroutput parser
+    - jsonoutput parser
+    - structure output parser
+    - pydantic output parser
+
+# StrOutputParser:
+    - It is the simplest output parser in LangChain.
+    - It is used to parse the output of a Language Model (LLM) and return it as a plain string. 
+
+# JsonOutputParser:
+
+
+# StructuredOutputParser:
+    - It is an output parser in LangChain that helps extract structured JSON data from LLM responses based on predefined field schemas.
+    - It works by defining a list of fields (ResponseSchema) that the model should return, ensuring the output follows a structured format.
+    - But we can validate the schema.
